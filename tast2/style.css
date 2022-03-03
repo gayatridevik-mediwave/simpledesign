@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Main-Container {
+  padding: 30px 30px 40px 40px;
+  background-color: #477cd1;
+  height: 200px;
+}
+
+.Sub-Container {
+  margin: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .Circle {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 588px) {
+  .Grid-Container > div {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 327px) {
+  .Grid-Container {
+    font-size: 10px;
+  }
+}
+
+.Day {
+  font-size: 30px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.Circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #ffff;
+}
+.Name-Container {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.Grid-Container {
+  margin: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  font-size: 30px;
+}
+
+@media (max-width: 330px) {
+  .Grid-Container {
+    font-size: 20px;
+  }
+}
+
+.Temp-Container p {
+  font-size: 25px;
+  color: #98b8eb;
+}
+
+.Hum-Container p {
+  font-size: 25px;
+  color: #98b8eb;
+}
+
+.Power-Container p {
+  font-size: 25px;
+  color: #98b8eb;
+}
+
+.Nav-Container {
+  max-width: 100%;
+  background-color: #0e61e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+  font-size: 30px;
+  overflow: auto;
+}
+
+@media (max-width: 700px) {
+  .Nav-Container {
+    justify-content: flex-start;
+  }
+
+  .Nav-Container a {
+    padding: 0 10px;
+  }
+}
+
+.Nav-Container a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.Second-Container {
+  margin: auto;
+  max-width: 100%;
+  background-color: #e1e7eb;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Overall-Cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+@media (max-width: 1271px) {
+  .Overall-Cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 947px) {
+  .Overall-Cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .Card1 {
+    width: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  .Overall-Cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+}
+
+.Card-Circle1 {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Card-Content1 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.Card-Content1 p {
+  color: #6e727d;
+  margin-top: 5px;
+}
+.Card1 {
+  padding: 20px;
+  /* height: 150px; */
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+
+.Card2 {
+  padding: 20px;
+  /* height: 150px; */
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+
+.Card3 {
+  padding: 20px;
+  height: 150px;
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+
+.Card4 {
+  padding: 20px;
+  height: 150px;
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+@media (max-width: 600px) {
+  .Card1 {
+    width: 150px;
+  }
+  .Card2 {
+    width: 150px;
+  }
+  .Card3 {
+    width: 150px;
+  }
+  .Card4 {
+    width: 150px;
+  }
+}
+
+.Circle1 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+  border-radius: 50%;
+}
+.Circle2 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+  border-radius: 50%;
+}
+.Circle3 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+  border-radius: 50%;
+}
+.Circle4 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+  border-radius: 50%;
+}
+
+.List-Container {
+  margin: 0;
+  max-width: 100%;
+  font-size: 30px;
+  padding: 40px;
+  height: 70px;
+  background-color: #ffff;
+}
+
+.List-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3352c3;
+}
+
+.List-Names {
+  margin-top: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 17px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #2196f3;
+  border-radius: 34px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 2px;
+  border-radius: 50%;
+  background-color: #195fce;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+}
+
+.Border-Container {
+  border-bottom: 2px solid;
+  color: #9fa2ab;
+}
+
+.ListItem-Container {
+  margin: auto;
+  max-width: 100%;
+  /* padding: 30px; */
+  height: 400px;
+  background-color: #ffff;
+}
+
+.List-Item1 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /* background-color: #0e61e6; */
+}
+
+.List-Circle1 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+
+  border-radius: 50%;
+}
+
+.List-Text1 {
+  padding: 0 0 0 20px;
+  font-size: 30px;
+  color: #202022;
+}
+
+.List-Item2 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /* background-color: #555f6e; */
+}
+
+.List-Circle2 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+
+  border-radius: 50%;
+}
+
+.List-Text2 {
+  padding: 0 0 0 20px;
+  font-size: 30px;
+  color: #202022;
+}
+
+.List-Item3 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /* background-color: #1b8b21; */
+}
+
+.List-Circle3 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+
+  border-radius: 50%;
+}
+
+.List-Text3 {
+  padding: 0 0 0 20px;
+  font-size: 30px;
+  color: #202022;
+}
+
+.List-Item4 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /* background-color: #692e4c; */
+}
+
+.List-Circle4 {
+  height: 40px;
+  width: 40px;
+  background-color: #0e61e6;
+
+  border-radius: 50%;
+}
+
+.List-Text4 {
+  padding: 0 0 0 20px;
+  font-size: 30px;
+  color: #202022;
+}
+.Nav-Container::after {
+  content: "";
+  position: absolute;
+
+  width: 30px;
+  right: 0;
+  height: 109px;
+  background: linear-gradient(92deg, transparent, #ffffff3b);
+}
